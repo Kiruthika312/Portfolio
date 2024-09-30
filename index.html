@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiruthika Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">    
+    </head>
+<body>
+    <header>
+
+        <div>
+            <a href=".index.html"><span class="logo">KIRUTHIKA</span></a>
+        </div>
+
+
+            <div>
+                <ul class="ul-tags" >
+                    <li><a href="#hero-section">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#skills-section">Skills</a></li>
+                    <li><a href="#projects-section">Projects</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <a href=".\assets\Kiruthika CV.pdf" download class="Download-btn">DOWNLOAD CV</a>
+            </div>
+        
+
+        <div class="toggle-btn" onclick="openNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div> 
+
+        <div class="sidebar" id="sidebar" onclick="closeNavbar()">
+             
+
+            <div class="sidebar-tags">
+                <a class="a"  href="#hero-section">Home <i class="fa-solid fa-xmark sidebar-icon"></i></a>
+                <a class="a" href="#about-section">About</a>
+                <a class="a" href="#skills-section">Skills</a>
+                <a class="a" href="#projects-section">Projects</a>
+                <a class="a" href="#contact-section">Contact</a>
+            </div>
+
+            
+                
+            
+        </div>
+
+    </header>
+   
+
+    <main>
+        <section class="hero-section" id="hero-section">
+            <div data-aos="fade-right">
+                <h4>Hi there,</h4>
+                <h2 class="hero-section-title">I'm <span class="span-name">Kiruthika</span></h2>
+                <p class="hero-section-p">Enthusiastic frontend developer proficient in HTML,CSS,Boostrap,JavaScript and React Js.</p>
+                <p class="hero-section-p">Portfolio features projects showcasing responsive and dynamic web applications.</p>
+                    <div class="social-icons">
+                        <ul class="ul-icons">
+                            <li><a href="https://linkedin.com/in/kiruthika8"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/Kiruthi2508"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="https://instagram.com/its_kiruthi_25"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+
+                    </div>
+
+                    <div>
+                        <a href="#contact-section"><button class="btn hero1">Hire me</button></a>
+                        <a href=".\assets\Kiruthika CV.pdf" download class="btn hero2 ">Download CV</a>                     
+
+                    </div>
+            </div>
+
+            <div>
+                <img class="img-shadow"data-aos="fade-left"  src="./assets/kiruthika.png" alt="Kiruthika Portfolio" width="350px" height="380px">    
+            </div>
+
+        </section>
+
+        <section class="About-me" id="about-section">
+            
+                <div class="about-img" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <img class="img1" src="./assets/kiruthika.png" alt="Kiruthika Portfolio" width="400px" height="400px" >
+                </div>
+                <div class="about-box">
+                    <div class="about-desc" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <h1 class="about-h1">About <span class="span-name"> Me</span></h1>
+                        <p style="width: 250px;">I'm Kiruthika passionate web developer currently pursuing my MCA.I have Strong skills in HTML,CSS,JavaScript,Bootstrap,React Js,Python,SQL and Node Js proficient in creating visually appealing front end interfaces and dynamic user experience</p>
+                        <button class="btn hero1 know-btn">Know more</button>
+                        
+                    </div>
+                </div>
+        </section>
+
+        <section class="skills" id="skills-section">
+            <h1 class="ski-h1">Skills</h1>
+            <div class="icon-div">
+
+                <ul class="icon">
+                    <li class="icon-li"><i class="fa-brands fa-html5" data-aos="zoom-in"></i></li>
+                    <li class="icon-li"><i class="fa-brands fa-css3-alt" data-aos="zoom-in"></i></li>
+                    <li class="icon-li"><i class="fa-brands fa-bootstrap" data-aos="zoom-in"></i></li>
+                    <li class="icon-li"><i class="fa-brands fa-js" data-aos="zoom-in"></i></li>
+                    <li class="icon-li"><i class="fa-brands fa-react" data-aos="zoom-in"></i></li>
+                    <li class="icon-li"><i class="fa-brands fa-python" data-aos="zoom-in"></i></li>
+                    <li class="icon-li"><i class="fa-brands fa-node" data-aos="zoom-in"></i></li>
+                    <li class="icon-li"><i class="fa-solid fa-database" data-aos="zoom-in"></i></li>
+                </ul>
+            </div>
+         </section>
+
+        <section class="projects" id="projects-section">
+
+            <h1 class="project-h1">Projects</h1>
+            <div class="project-container">
+                
+
+                <div class="proj-cont" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <img class="img-project" src="./assets/nostra.png" alt="Nostra project" >
+                    <h1 class="proj-h1">NOSTRA WEBSITE</h1>
+                    <p class="proj-p">Created "Nostra Shopping" an e-commerce site using HTML,CSS and JavaScript featuring inituitive search and responsive design ,Integrated Web3Forms API for form submissions.Demostrated skills in front-end development and UI design.
+                    </p>
+                    <div class="proj-a">
+                        <a class="proj-btn" href="https://github.com/Kiruthi2508/Nostra">Github</a> 
+                        <a class="proj-btn" href="https://kiruthi2508.github.io/Nostra/">Live page</a> 
+                    
+                    </div>   
+                </div>
+
+
+                <div class="proj-cont" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <img class="img-project" src="./assets/greenden.png" alt="Greenden project">
+                    <h1 class="proj-h1">GREENDEN WEBSITE</h1>
+                    <p class="proj-p">Developed Greenden an e-commerce website for plats as my first project through Error Makes Clever Academy.Utilized HTML and CSS for front-end-development,showcasing my ability to build functional and visually appealin web pages.</p>
+                    <div class="proj-a">
+                        <a href="https://github.com/Kiruthi2508/Greenden-" class="proj-btn">Github</a>
+                        <a class="proj-btn" href="https://kiruthi2508.github.io/Greenden-/">Live page</a> 
+                    </div>  
+                </div>
+
+                <div class="proj-cont" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <img class="img-project" src="./assets/airbnb.png" alt="Greenden project" >
+                    <h1 class="proj-h1">PORTFOLIO WEBSITE</h1>
+                    <p class="proj-p">Built a responsive and single page portfolio with HTML ,CSS and Javascript for dynamic and Integrated Web3forms API for form submissions . Incorporating CSS properties to hignlights my skills and showcase my projects</p>
+                    <div class="proj-a">
+                        <a class="proj-btn" href="https://github.com/Kiruthi2508/Portfolio">Github</a> 
+                        <a class="proj-btn" href="https://kiruthi2508.github.io/Portfolio/">Live page</a>   
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+
+        <section class="cont" id="contact-section">
+            <h1 class="contact-h1"><span class="span-name">Contact</span> Me</h1>
+            <div class="contact-me">
+                <div class="contact-container">
+                    <form action="https://api.web3forms.com/submit" method="POST" >
+                        <input type="hidden" name="access_key" value="9be47adc-eb78-45cf-8e87-8fd0772ba3fe">
+                        <input type="text" name="your name" placeholder="Your name" required>
+                        <input type="email"  name="your email" placeholder="E-mail" required>
+                        <input type="number" name="number" placeholder="+91-********" required>
+                        <textarea type="text" name="textarea" cols="30" rows="10" placeholder="Message" style="padding: 10px; color: #03b5fc;;"></textarea>
+                        <button class="sub-btn">Send a message</button>
+                    </form>
+                </div>
+
+                <div class="details">
+                    <h1 class="info-h1" data-aos="fade-left">Contact Information</h1>
+                    <div class="split" data-aos="fade-left">
+                        <div class="det-div"><i class="fa-solid fa-phone"></i><p class="det-d">9047566443</p></div>
+                        <div class="det-div"><i class="fa-solid fa-envelope"></i><p class="det-d">akiruthika61@gmail.com</p></div>
+                        <div class="det-div"><i class="fa-solid fa-location-dot"></i><p class="det-d">Kannamangalam,Vellore</p></div>
+                    </div>
+                </div>
+            </div>
+
+         </section>
+    </main>
+
+    <footer>
+        <p class="foot-p">Copyright &copy; 2024-<a href="https://github.com/kiruthika2508">Kiruthika</a> - All Rights Reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+   
+</body>
+</html>
